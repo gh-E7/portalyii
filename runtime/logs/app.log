@@ -229,3 +229,582 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1431342760.855
     'REQUEST_TIME' => 1431342760
 ]
+2015-05-11 14:55:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 14:55:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431348909.126
+    'REQUEST_TIME' => 1431348909
+]
+2015-05-11 15:07:35 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49356'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349655.597
+    'REQUEST_TIME' => 1431349655
+]
+2015-05-11 15:07:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49357'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349657.353
+    'REQUEST_TIME' => 1431349657
+]
+2015-05-11 15:07:38 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49358'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349658.315
+    'REQUEST_TIME' => 1431349658
+]
+2015-05-11 15:07:39 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349659.714
+    'REQUEST_TIME' => 1431349659
+]
+2015-05-11 15:07:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349660.782
+    'REQUEST_TIME' => 1431349660
+]
+2015-05-11 15:07:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49361'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349661.948
+    'REQUEST_TIME' => 1431349661
+]
+2015-05-11 15:07:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49362'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349663.031
+    'REQUEST_TIME' => 1431349663
+]
+2015-05-11 15:07:44 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highcharts' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:07:44 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49363'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349664.123
+    'REQUEST_TIME' => 1431349664
+]
+2015-05-11 15:08:26 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Highmaps' not found' in C:\wamp\www\portalyii\views\site\index.php:54
+Stack trace:
+#0 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\wamp\www\portalyii\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\portalyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\portalyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\portalyii\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-05-11 15:08:26 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'wlAsDvlo25c55P94DHb9DfpyFOLmIoMp'
+    'PHPSESSID' => '7a3ka5237cl6c5m5kv9rn4dg20'
+    '_csrf' => '4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1bwkGvyA4-etDc6ZRopoWlxSovxB7EUU\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'csrftoken=wlAsDvlo25c55P94DHb9DfpyFOLmIoMp; PHPSESSID=7a3ka5237cl6c5m5kv9rn4dg20; _csrf=4b65b1718e36317f83c992a8dff1866266e90788131fbdf162696472b1376b52a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221bwkGvyA4-etDc6ZRopoWlxSovxB7EUU%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/portalyii/web/index.php'
+    'REMOTE_PORT' => '49371'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/portalyii/web/'
+    'SCRIPT_NAME' => '/portalyii/web/index.php'
+    'PHP_SELF' => '/portalyii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1431349706.443
+    'REQUEST_TIME' => 1431349706
+]
